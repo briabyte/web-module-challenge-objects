@@ -6,8 +6,29 @@ const breakfastBurrito = {name: "Breakfast Burrito", price: 16, category:"Breakf
 
 /* Task 1a: write a function to return more menu items with the same format as the items above. */
 
-function createMenuItem(name, cost, category){
-    /* Code here */
+function createMenuItem(name, price, category){
+     let menuItems = {
+      name: "Enchilada",
+      price: 11,
+      category: "Mexican"
+     };
+  
+     return menuItems
+  
+  // let mexicanFood = {
+      //   name: "Enchilada",
+      //   price: 11,
+      //   category: "Mexican"
+      // };
+      // return Object.entries();
+
+      // this.name = "Enchilada";
+      // this.price = 11;
+      // this.category = "Mexican";
+      // this.mexicanFood = function(){
+      //   return createMenuItem
+      // }
+  
 }
 
 /* Task 1b: use your function to create 3 more menu items. You may add any items to the menu that you'd like */
